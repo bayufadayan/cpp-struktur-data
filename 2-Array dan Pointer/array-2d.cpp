@@ -1,15 +1,19 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
 int main (){
 
+    int baris, kolom;
+    cout << "Baris : "; cin >> baris;
+    cout << "Kolom : "; cin >> kolom; cout << endl;
     int a[baris][kolom];
+
+
 
     //memasukan inputan
     for (auto i = 0; i < baris; i++)
     {
-        for (auto j = 0; i < kolom; j++)
+        for (auto j = 0; j < kolom; j++)
         {
             cout << "a["<<i<<"]["<<j<<"] = ";
             cin >> a[i][j];
@@ -28,6 +32,6 @@ int main (){
         
     }
     
-    getch();
+    cin.get();
     return 0;
 }
