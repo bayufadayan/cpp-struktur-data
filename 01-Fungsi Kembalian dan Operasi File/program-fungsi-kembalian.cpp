@@ -5,29 +5,29 @@ using namespace std;
 void border(){
     cout << "====================================="<<endl;
 }
-int Tambah (int x, int y){
-    int z;
+float Tambah (float x, float y){
+    float z;
     cout << x<<" + "<<y<<" = ";
     z = x+y;
     cout <<z<<endl;
     return z;
 }
-int Kurang (int x, int y){
-    int z;
+float Kurang (float x, float y){
+    float z;
     cout << x<<" - "<<y<<" = ";
     z = x-y;
     cout <<z<<endl;
     return z;
 }
-int Kali (int x, int y){
-    int z;
+float Kali (float x, float y){
+    float z;
     cout << x<<" x "<<y<<" = ";
     z = x*y;
     cout <<z<<endl;
     return z;
 }
-int Bagi (int x, int y){
-    int z;
+float Bagi (float x, float y){
+    float z;
     cout << x<<" : "<<y<<" = ";
     z = x/y;
     cout <<z<<endl;
@@ -36,7 +36,7 @@ int Bagi (int x, int y){
 
 int main (){
 
-    int a, b, tambah, kurang, bagi, kali;
+    float a, b, tambah, kurang, bagi, kali;
 
     border();
     cout << "Kalkulator Sederhana"<<endl;
