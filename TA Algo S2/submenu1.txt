@@ -1,0 +1,7 @@
+=====================================================
+        >>>   PENGECEKAN BARANG DAN STOK   <<<      
+=====================================================
+ 1. Cek berdasarkan nama barang
+ 2. Cek berdasarkan stok barang
+ 3. Cek total barang
+=====================================================

@@ -1,0 +1,10 @@
+Muhamad Bayu Fadayan -- 065121100
+==========================================
+APLIKASI MANAJEMEN DATA BARANG PADA GUDANG
+==========================================
+1. Tambah Barang
+2. Hapus Barang
+3. Cetak Barang
+4. Hitung Barang
+5. Keluar
+==========================================
